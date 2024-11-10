@@ -42,3 +42,12 @@
 * ```declare```
   * ```-p``` vypíše informace o proměnné
 * ```type``` ukáže, jak bude shell interpretovat příkaz
+* ```tr``` přeloží/smaže znaky
+* ```sort``` seŘadí soubor podle řádku
+* ```(())``` aritmetické operace v Bashi
+* ```read``` čte ze standartního vstupu, pro změnu oddělovače je třeba změnit Proměnnou IFS
+* ```awk``` pattern scanning
+ * ```-F``` použije jinný oddělovač
+ * ```-v``` zadání
+  * ```awk -F 'Oddělovač' -v parametry 'příkaz' soubor
+  * např. ```awk -v col=7 '{print $col}' file```
