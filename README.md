@@ -47,7 +47,12 @@
 * ```(())``` aritmetické operace v Bashi
 * ```read``` čte ze standartního vstupu, pro změnu oddělovače je třeba změnit Proměnnou IFS
 * ```awk``` pattern scanning
- * ```-F``` použije jinný oddělovač
- * ```-v``` zadání
+  * ```-F``` použije jinný oddělovač
+  * ```-v``` zadání
   * ```awk -F 'Oddělovač' -v parametry 'příkaz' soubor
-  * např. ```awk -v col=7 '{print $col}' file```
+    * např. ```awk -v col=7 '{print $col}' file```
+* ```cut```
+* ```uniq```
+* ```grep ^.......$``` vypíše prvních 7 znaků
+* ```unset``` zruší proměnou
+* ```test``` check file types and compare values
